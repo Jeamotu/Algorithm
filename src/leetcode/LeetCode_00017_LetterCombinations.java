@@ -28,7 +28,8 @@ public class LeetCode_00017_LetterCombinations {
                 queue.offer(str);
             }
         } else {
-            for (int i = 0; i < queue.size(); i++) {
+            int queueLength = queue.size();
+            for (int i = 0; i < queueLength; i++) {
                 String queueValue = queue.poll();
                 for (String str : strings) {
                     queue.offer(queueValue + str);
