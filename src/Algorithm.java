@@ -1,3 +1,4 @@
+import algorithm.BubbleSort;
 import leetcode.LeetCode_00215_FindKthLargest;
 import practice.JumpStep;
 
@@ -9,6 +10,7 @@ public class Algorithm {
 //        leetcode.LeetCode_01011_ShipWithinDays.execute();
 //        algorithm.QuickSort.execute();
 //        LeetCode_00215_FindKthLargest.execute();
-        JumpStep.execute();
+//        JumpStep.execute();
+        BubbleSort.execute();
     }
 }
